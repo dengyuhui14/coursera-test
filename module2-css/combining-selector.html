@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test site</title>
+        <meta charset="utf-8">
+        <style>
+            /* all with highlight */
+            .highlight{
+                background-color: green;
+            }
+            /* all p with class=".highlight" */
+            p.highlight {
+                font-style: italic;
+            }
+            /* all elements with class"highligh" as well as class "mainPoint" */
+            .highlight.mainPoint {
+                color: red;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="highlight">Alice in Wonderland</h1>
+
+        <p>
+            One warm summer day, on a golden afternoon, on exactly May the 4th, Alice and her bookworm big sister went to relax and read next to a large tree under the cool shade on the flowery meadows by the river banks of London. The hot sun made Alice feel rather lazy and stupid. Even too sleepy to collect flowers to make a daisy chain to wear as a crown, and ever so bored by her sister's book because it had no pictures within it, Alice soon slipped into a midsummer daydream. 
+        </p>
+
+        <p class="highlight">
+            Alice also observes that the chess pieces in the room have come to life, though they remain small enough for her to pick up. Suddenly she finds herself shrunken down several sizes. Then Alice meets the Red Queen. The Red Queen shows her a view of the countryside, which is divided into an enormous chessboard. Alice asks to be allowed to play in the giant living game of chess, and the Red Queen assigns her the role of White Pawn. Alice is to start in the Second Square, cross six brooks the divisions between squares, and end up in the Eighth Square, where she will become a Queen. 
+        </p>
+
+        <div class="highlight mainPoint">
+            <p>This is the main point of the entire article</p>
+        </div>
+    </body>
+</html>
